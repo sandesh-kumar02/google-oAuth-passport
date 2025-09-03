@@ -7,7 +7,7 @@ const signupValidation = [
     .withMessage("username is required")
     .isLength({ min: 3 })
     .withMessage("username is minimum 3 character")
-    .matches(/^[A-Za-z]+$/)
+    .matches(/^[A-Za-z\s]+$/)
     .withMessage("Username must contain only alphabets (no numbers allowed)"),
   body("email")
     .normalizeEmail()
