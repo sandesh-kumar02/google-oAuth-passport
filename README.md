@@ -27,4 +27,4 @@ This project demonstrates how to integrate Google login/signup in a Node.js appl
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sandesh-kumar02/google-oAuth-passport.git
+   git clone https://github.com/sandesh-kumar02/google-oAuth-passport/tree/main
